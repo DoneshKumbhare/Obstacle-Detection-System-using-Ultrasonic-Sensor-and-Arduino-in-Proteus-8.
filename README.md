@@ -14,6 +14,7 @@ Components & Technologies Used
 8. Arduino IDE – Code development and uploading
 
 How It Works
+
 The ultrasonic sensor sends sound waves and measures the time it takes for them to bounce back after hitting an obstacle. The Arduino calculates the distance using the time difference.The LCD display continuously
 shows the measured distance. If the measured distance is less than the set threshold, the LED turns on and the buzzer beeps. When no obstacle is detected (distance greater than threshold), both the LED and buzzer
 stay off. The potentiometer can be used to adjust the contrast of the LCD and fine-tune the system’s response.
